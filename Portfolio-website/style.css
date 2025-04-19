@@ -185,3 +185,35 @@ nav ul li a:hover {
     background-color: rgba(59, 130, 246, 0.1);
     color: #1d4ed8;
 }
+
+/* About Section */
+.about {
+    background-color: white;
+    padding: 4rem 0;
+}
+
+.about-content {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-image {
+    flex: 0.8;
+    max-width: 350px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.15);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-text {
+    flex: 1.2;
+}
